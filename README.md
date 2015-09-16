@@ -22,22 +22,22 @@ https://github.com/jedi4ever/veewee/issues/607
 $ vagrant plugin install veewee
 ```
 
-## Create CentOS-7 imaage for virtualbox
+## Create CentOS-7 image for virtualbox
 ```
 $ veewee vbox build 'CentOS-7-x86_64'
 ```
 
-## Export CentOS-7 imaage for virtualbox
+## Export CentOS-7 image for virtualbox
 ```
 $ veewee vbox export 'CentOS-7-x86_64'
 ```
 
-## Import CentOS-7 imaage (box) for virtualbox
+## Import CentOS-7 image (box) for virtualbox
 ```
 $ vagrant box add 'CentOS-7-x86_64' '~/Projects/veewee/CentOS-7-x86_64.box'
 ```
 
-## Use new CentOS-7 imaage (box) with vagrant and virtualbox
+## Use new CentOS-7 image (box) with vagrant and virtualbox
 ```
 $ vagrant init 'CentOS-7-x86_64'
 ```
