@@ -32,6 +32,11 @@ $ veewee vbox build 'CentOS-7-x86_64'
 $ veewee vbox export 'CentOS-7-x86_64'
 ```
 
+## Remove VirtualBox VM and Delete all files
+```
+$ VBoxManage unregistervm --delete 'CentOS-7-x86_64'
+```
+
 ## Import CentOS-7 image (box) for virtualbox
 ```
 $ vagrant box add 'CentOS-7-x86_64' '~/Projects/veewee/CentOS-7-x86_64.box'
@@ -43,3 +48,4 @@ $ vagrant init 'CentOS-7-x86_64'
 $ vagrant up
 $ vagrant ssh
 ```
+
