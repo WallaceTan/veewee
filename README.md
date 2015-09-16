@@ -40,4 +40,6 @@ $ vagrant box add 'CentOS-7-x86_64' '~/Projects/veewee/CentOS-7-x86_64.box'
 ## Use new CentOS-7 image (box) with vagrant and virtualbox
 ```
 $ vagrant init 'CentOS-7-x86_64'
+$ vagrant up
+$ vagrant ssh
 ```
